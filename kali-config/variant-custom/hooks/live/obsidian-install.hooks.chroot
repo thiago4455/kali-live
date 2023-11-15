@@ -1,0 +1,5 @@
+#!/bin/sh
+
+curl -s https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest | grep "browser_download_url" | grep ".AppImage" | grep -v "arm64" | head -1 | cut -d : -f 2,3 | tr -d \" | wget -qi - -O /usr/bin/obsidian
+
+chmod +x /usr/bin/obsidian

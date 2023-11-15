@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Obsidian
+Comment=Obsidian is the private and flexible writing app that adapts to the way you think
+TryExec=/usr/bin/obsidian
+Exec=/usr/bin/obsidian
+Icon=/usr/share/icons/obsidian.png
+MimeType=x-scheme-handler/obsidian;
+Categories=Office;
+
