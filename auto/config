@@ -143,10 +143,10 @@ lb config noauto \
 	--iso-volume "Kali Live" \
 	--linux-packages linux-image \
 	--memtest memtest86+ \
-	--bootappend-live "boot=live components quiet splash noeject" \
+	--bootappend-live "boot=live components quiet splash noeject timezone=America/Sao_Paulo locales=pt_BR.UTF-8 keyboard-layouts=br" \
 	--bootappend-live-failsafe "boot=live components noeject memtest noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal" \
 	--bootappend-install "net.ifnames=0" \
 	--security false \
-	--win32-loader false \
+--win32-loader false \
 	$lb_opts \
 	"$@"
