@@ -1,3 +1,10 @@
-# live-build configuration for Kali ISO images
+# Imagem do Kali customizada para eu usar como Live USB 
 
-Have a look at [Live Build a Custom Kali ISO](https://www.kali.org/docs/development/live-build-a-custom-kali-iso/) for explanations on how to use this repository.
+https://www.kali.org/docs/development/live-build-a-custom-kali-iso/
+https://live-team.pages.debian.net/live-manual/html/live-manual/customizing-contents.en.html
+
+```bash
+sudo apt install -y git live-build simple-cdd cdebootstrap curl
+
+./build.sh --verbose --variant custom
+```
