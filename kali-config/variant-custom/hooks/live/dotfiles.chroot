@@ -8,3 +8,7 @@ rsync -a /usr/share/i3-dotfiles/etc/skel/ /root/
 
 # Copy scripts to /usr/bin/:
 rsync -a /usr/share/i3-dotfiles/usr/bin/ /usr/bin/
+
+#Copy my own dotfiles after the others
+rsync -a /usr/share/custom-dotfiles/ /etc/skel/
+rsync -a /usr/share/custom-dotfiles/ /root/
