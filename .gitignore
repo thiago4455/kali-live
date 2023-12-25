@@ -30,3 +30,5 @@ simple-cdd/profiles/kali.downloads
 .lock
 .stage
 prepare.log
+
+*/.DS_Store
